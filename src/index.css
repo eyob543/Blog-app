@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+    body{
+        @apply font-mono;
+    }
+    input, textarea{
+        outline: 1px solid violet;
+        border-radius: 3px;
+    }
+}
